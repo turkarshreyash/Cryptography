@@ -23,7 +23,6 @@ if __name__ == "__main__":
     a = a//c
     b = b//c
     n = n//c
-from lab1.extended_euclidean import gcd
     a_inv = inverse(a,n)[0]
 
     result = (a_inv*b)%n
