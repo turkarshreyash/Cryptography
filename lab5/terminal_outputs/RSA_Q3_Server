@@ -1,0 +1,21 @@
+shreyashturkar@SVF15:~/Documents/Cryptography/lab5/RSA$ ./server 
+Type Message : 1 2 5 6 
+0
+
+Plain Text: 
+1	2	5	6	
+Encrypted: 
+1	11	17	6	
+Sending. . . 
+Sent!
+Type Message : 5 8 9 2  
+0
+
+Plain Text: 
+5	8	9	2	
+Encrypted: 
+17	8	18	11	
+Sending. . . 
+Sent!
+Type Message : 
+

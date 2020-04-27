@@ -1,0 +1,8 @@
+shreyashturkar@SVF15:~/Documents/Cryptography/lab5/DES$ make main
+make: 'main' is up to date.
+shreyashturkar@SVF15:~/Documents/Cryptography/lab5/DES$ ./main
+Plain Text : 123456789abcdef
+Key : 133457799bbcdff1
+Encrypt : 85e813540f0ab405
+shreyashturkar@SVF15:~/Documents/Cryptography/lab5/DES$ ^C
+shreyashturkar@SVF15:~/Documents/Cryptography/lab5/DES$ 

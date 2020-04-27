@@ -1,0 +1,20 @@
+#include<iostream>
+#include<inttypes.h>
+
+uint16_t ctoi(char *arr){
+	uint16_t i = 0;
+	uint
+	while(arr[i] != '\0'){
+		
+	}
+}
+
+int main(uint16_t argc, char *args[]){
+	//seed len
+	
+
+
+
+
+
+}

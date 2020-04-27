@@ -1,0 +1,285 @@
+shreyashturkar@SVF15:~/Documents/Cryptography/lab5/AES$ make main
+g++ -o main main.c _aes_binary.c
+shreyashturkar@SVF15:~/Documents/Cryptography/lab5/AES$ ./main
+54 73 20 67 
+68 20 4b 20 
+61 6d 75 46 
+74 79 6e 75 
+
+54 4f 4e 20 
+77 6e 69 54 
+6f 65 6e 77 
+20 20 65 6f 
+Round 0 Step 4 : 
+0 3c 6e 47 
+1f 4e 22 74 
+e 8 1b 31 
+54 59 b 1a 
+Round 0 Key:  
+e2 91 b1 d6 
+32 12 59 79 
+fc 91 e4 a2 
+f1 88 e6 93 
+-------------------------------------
+Round 1 Step 1 : 
+63 eb 9f a0 
+c0 2f 93 92 
+ab 30 af c7 
+20 cb 2b a2 
+Round 1 Step 2 : 
+63 eb 9f a0 
+2f 93 92 c0 
+af c7 ab 30 
+a2 20 cb 2b 
+Round 1 Step 3 : 
+ba 84 e8 1b 
+75 a4 8d 40 
+f4 8d 6 7d 
+7a 32 e 5d 
+Round 1 Step 4 : 
+58 15 59 cd 
+47 b6 d4 39 
+8 1c e2 df 
+8b ba e8 ce 
+Round 1 Key:  
+56 c7 76 a0 
+8 1a 43 3a 
+20 b1 55 f7 
+7 8f 69 fa 
+-------------------------------------
+Round 2 Step 1 : 
+6a 59 cb bd 
+a0 4e 48 12 
+30 9c 98 9e 
+3d f4 9b 8b 
+Round 2 Step 2 : 
+6a 59 cb bd 
+4e 48 12 a0 
+98 9e 30 9c 
+8b 3d f4 9b 
+Round 2 Step 3 : 
+15 c9 7f 9d 
+ce 4d 4b c2 
+89 71 be 88 
+65 47 97 cd 
+Round 2 Step 4 : 
+43 e 9 3d 
+c6 57 8 f8 
+a9 c0 eb 7f 
+62 c8 fe 37 
+Round 2 Key:  
+d2 15 63 c3 
+60 7a 39 3 
+d bc e9 1e 
+e7 68 1 fb 
+-------------------------------------
+Round 3 Step 1 : 
+1a ab 1 27 
+b4 5b 30 41 
+d3 ba e9 d2 
+aa e8 bb 9a 
+Round 3 Step 2 : 
+1a ab 1 27 
+5b 30 41 b4 
+e9 d2 d3 ba 
+9a aa e8 bb 
+Round 3 Step 3 : 
+aa 65 fa 88 
+16 c 5 3a 
+3d c1 de 2a 
+b3 4b 5a a 
+Round 3 Step 4 : 
+78 70 99 4b 
+76 76 3c 39 
+30 7d 37 34 
+54 23 5b f1 
+Round 3 Key:  
+a1 b4 d7 14 
+12 68 51 52 
+2 be 57 49 
+c9 a1 a0 5b 
+-------------------------------------
+Round 4 Step 1 : 
+bc 51 ee b3 
+38 38 eb 12 
+4 ff 9a 18 
+20 26 39 a1 
+Round 4 Step 2 : 
+bc 51 ee b3 
+38 eb 12 38 
+9a 18 4 ff 
+a1 20 26 39 
+Round 4 Step 3 : 
+10 bc d3 f3 
+d8 94 e0 e0 
+53 ea 9e 25 
+24 40 73 7b 
+Round 4 Step 4 : 
+b1 8 4 e7 
+ca fc b1 b2 
+51 54 c9 6c 
+ed e1 d3 20 
+Round 4 Key:  
+b1 5 d2 c6 
+29 41 10 42 
+3b 85 d2 9b 
+33 92 32 69 
+-------------------------------------
+Round 5 Step 1 : 
+c8 30 f2 94 
+74 b0 c8 37 
+d1 20 dd 50 
+55 f8 66 b7 
+Round 5 Step 2 : 
+c8 30 f2 94 
+b0 c8 37 74 
+dd 50 d1 20 
+b7 55 f8 66 
+Round 5 Step 3 : 
+2a 26 8f e9 
+78 1e c 7a 
+1b a7 6f a 
+5b 62 0 3f 
+Round 5 Step 4 : 
+9b 23 5d 2f 
+51 5f 1c 38 
+20 22 bd 91 
+68 f0 32 56 
+Round 5 Key:  
+bd b8 6a ac 
+3d 7c 6c 2e 
+c2 47 95 e 
+87 15 27 4e 
+-------------------------------------
+Round 6 Step 1 : 
+14 26 4c 15 
+d1 cf 9c 7 
+b7 93 7a 81 
+45 8c 23 b1 
+Round 6 Step 2 : 
+14 26 4c 15 
+cf 9c 7 d1 
+7a 81 b7 93 
+b1 45 8c 23 
+Round 6 Step 3 : 
+a9 37 aa f2 
+ae d8 c 21 
+e7 6c b1 9c 
+f0 fd 67 3b 
+Round 6 Step 4 : 
+14 8f c0 5e 
+93 a4 60 f 
+25 2b 24 92 
+77 e8 40 75 
+Round 6 Key:  
+cc 74 1e b2 
+96 ea 86 a8 
+ed aa 3f 31 
+16 3 24 6a 
+-------------------------------------
+Round 7 Step 1 : 
+fa 73 ba 58 
+dc 49 d0 76 
+3f f1 36 4f 
+f5 9b 9 9d 
+Round 7 Step 2 : 
+fa 73 ba 58 
+49 d0 76 dc 
+36 4f 3f f1 
+9d f5 9b 9 
+Round 7 Step 3 : 
+9f 37 51 37 
+af ec 8c fa 
+63 39 4 66 
+4b fb b1 d7 
+Round 7 Step 4 : 
+53 43 4f 85 
+39 6 a 52 
+8e 93 3b 57 
+5d f8 95 bd 
+Round 7 Key:  
+8e fa e4 56 
+51 bb 3d 95 
+ef 45 7a 4b 
+21 22 6 6c 
+-------------------------------------
+Round 8 Step 1 : 
+ed 1a 84 97 
+12 6f 67 0 
+19 dc e2 5b 
+4c 41 2a 7a 
+Round 8 Step 2 : 
+ed 1a 84 97 
+6f 67 0 12 
+e2 5b 19 dc 
+7a 4c 41 2a 
+Round 8 Step 3 : 
+e8 8a 4b f5 
+74 75 ee e6 
+d3 1f 75 58 
+55 8a c 38 
+Round 8 Step 4 : 
+66 70 af a3 
+25 ce d3 73 
+3c 5a f 13 
+74 a8 a 54 
+Round 8 Key:  
+bf 45 a1 f7 
+e2 59 64 f1 
+bf fa 80 cb 
+90 b2 b4 d8 
+-------------------------------------
+Round 9 Step 1 : 
+33 51 79 a 
+3f 8b 66 8f 
+eb be 76 7d 
+92 c2 67 20 
+Round 9 Step 2 : 
+33 51 79 a 
+8b 66 8f 3f 
+76 7d eb be 
+20 92 c2 67 
+Round 9 Step 3 : 
+b6 e7 51 8c 
+84 88 98 ca 
+34 60 66 fb 
+e8 d7 70 51 
+Round 9 Step 4 : 
+9 a2 f0 7b 
+66 d1 fc 3b 
+8b 9a e6 30 
+78 65 c4 89 
+Round 9 Key:  
+28 6d cc 3b 
+fd a4 c0 31 
+de 24 a4 6f 
+f8 4a fe 26 
+-------------------------------------
+Round 10 Step 1 : 
+1 3a 8c 21 
+33 3e b0 e2 
+3d b8 8e 4 
+bc 4d 1c a7 
+Round 10 Step 2 : 
+1 3a 8c 21 
+3e b0 e2 33 
+8e 4 3d b8 
+a7 bc 4d 1c 
+Round 10 Step 4 : 
+29 57 40 1a 
+c3 14 22 2 
+50 20 99 d7 
+5f f6 b3 3a 
+Round 10 Key:  
+ca a7 6b 50 
+55 f1 31 0 
+29 d a9 c6 
+1a 50 ae 88 
+-------------------------------------
+
+29 57 40 1a 
+c3 14 22 2 
+50 20 99 d7 
+5f f6 b3 3a 
+shreyashturkar@SVF15:~/Documents/Cryptography/lab5/AES$ ^C
+shreyashturkar@SVF15:~/Documents/Cryptography/lab5/AES$ 

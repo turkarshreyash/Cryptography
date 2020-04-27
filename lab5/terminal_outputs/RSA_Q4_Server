@@ -1,0 +1,13 @@
+shreyashturkar@SVF15:~/Documents/Cryptography/lab5/RSA$ ./signatureserver 
+Type Signature : 4 5 6 2 1
+0
+
+Plain Signature: 
+4	5	6	2	1	
+Encrypted: 
+16	17	6	11	1	
+Sending. . . 
+Sent!
+Type Signature : 
+
+

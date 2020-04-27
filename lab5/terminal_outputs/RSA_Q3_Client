@@ -1,0 +1,13 @@
+shreyashturkar@SVF15:~/Documents/Cryptography/lab5/RSA$ ./client 
+Received Message!
+Encrypted: 
+1	11	17	6	
+(4)Plain Text: 
+1	2	5	6	
+Received Message!
+Encrypted: 
+17	8	18	11	
+(4)Plain Text: 
+5	8	9	2	
+
+
